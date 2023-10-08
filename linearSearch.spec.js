@@ -12,6 +12,9 @@ describe("tests linearSearch", () => {
   test("linearSearch(4, [1, 2, 3]) === undefined", () => {
     expect(linearSearch(4, [1, 2, 3])).toBe(undefined);
   });
+  test("linearSearch(2, [1,2,3, 4, 7, 7] === 4", () => {
+    expect(linearSearch(7, [1,2,3, 4, 7, 7])).toBe(4);
+  });
 });
 
 describe("tests globalLinearSearch", () => {
